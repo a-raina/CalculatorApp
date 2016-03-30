@@ -1,0 +1,47 @@
+body{
+    background-color: beige;
+}
+div{
+    word-wrap: break-word;
+}
+h1,h2,h3,p{
+    font-family: Georgia, serif;
+    color:black;
+    letter-spacing: 1px;
+    line-height: 200%;
+}
+
+
+.calculator-container{
+   margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;  
+}
+.display-bar{
+    border-style: solid;
+    border-color: aqua;
+    height: 50px;
+    background-color: aquamarine;
+}
+.calculator-menu{
+    border-style: solid;
+    border-color: aqua;
+}
+.calculator-btn{
+    background-color: aquamarine;
+    text-align: center;
+   height: inherit;
+    width: 25%;
+    display:block;
+    float: left;
+    
+}
+
+.calculator-btn:hover{
+   border-style: solid; 
+}
+
+/*Make header position constant so it doesn't scroll*/
+#log-header{
+  
+}
