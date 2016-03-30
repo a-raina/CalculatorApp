@@ -1,0 +1,15 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>
+            {% for post in posts %}
+    <div>
+        <p>user: {{ post.user }}</p>
+        <p>calculation: {{ post.calculation }}</p>
+    </div>
+{% endfor %}
+        </div>
+    </body>
+</html>
